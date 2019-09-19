@@ -29,8 +29,6 @@
 		4A2125A417C0C78A00B5B582 /* NSColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2125A317C0C78A00B5B582 /* NSColor+RGB.m */; };
 		4A40159714067B6300DB9C07 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A40159614067B6300DB9C07 /* CoreFoundation.framework */; };
 		4A40159914067B7A00DB9C07 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A40159814067B7A00DB9C07 /* AppKit.framework */; };
-		4A467EEE1546D1CD00F8902B /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4EF0AF142CBAD5001B8CDF /* ObjectiveGit.framework */; };
-		4A4EF0BB142CBBC2001B8CDF /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4EF0AF142CBAD5001B8CDF /* ObjectiveGit.framework */; };
 		4A5D75C114A9A90500DF6C68 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D757D14A9A90500DF6C68 /* Credits.html */; };
 		4A5D75DE14A9A90500DF6C68 /* mainSplitterBar.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D759B14A9A90500DF6C68 /* mainSplitterBar.tiff */; };
 		4A5D75DF14A9A90500DF6C68 /* mainSplitterDimple.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D759C14A9A90500DF6C68 /* mainSplitterDimple.tiff */; };
@@ -127,7 +125,6 @@
 		4A5D773B14A9A9F900DF6C68 /* gitx_askpasswd_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D768714A9A9CC00DF6C68 /* gitx_askpasswd_main.m */; };
 		4A5D777414A9AEB000DF6C68 /* PBSourceViewBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D776F14A9AEB000DF6C68 /* PBSourceViewBadge.m */; };
 		4A68AD7414A00541006DE321 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A68AD6714A0050F006DE321 /* Sparkle.framework */; };
-		4A774CC9142F482900E158CC /* ObjectiveGit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A4EF0AF142CBAD5001B8CDF /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4A8F6B4B14A9B6C20002F4D7 /* MGScopeBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8F6B4714A9B6110002F4D7 /* MGScopeBar.framework */; };
 		4A8F6B4C14A9B6C90002F4D7 /* MGScopeBar.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A8F6B4714A9B6110002F4D7 /* MGScopeBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4A90A73514A9D24300D0DA02 /* GitX.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 4A90A73414A9D24300D0DA02 /* GitX.sdef */; };
@@ -181,6 +178,9 @@
 		A2F8D0EB17AAB95E00580B84 /* PBSourceViewGitStashItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F8D0EA17AAB95E00580B84 /* PBSourceViewGitStashItem.m */; };
 		BF42F1331E025403004769FF /* GitXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42F1321E025403004769FF /* GitXTextView.m */; };
 		BFFCB5471E3EFA9F00E0B254 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFCB5461E3EFA9F00E0B254 /* Images.xcassets */; };
+		D178B3E02334241A00E485D6 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D178B3DF2334241A00E485D6 /* ObjectiveGit.framework */; };
+		D178B3E12334241A00E485D6 /* ObjectiveGit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D178B3DF2334241A00E485D6 /* ObjectiveGit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D178B3E2233424A500E485D6 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D178B3DF2334241A00E485D6 /* ObjectiveGit.framework */; };
 		D87127011229A21C00012334 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87127001229A21C00012334 /* QuartzCore.framework */; };
 		D89E9B141218BA260097A90B /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89E9AB21218A9DA0097A90B /* ScriptingBridge.framework */; };
 		D8E3B2B810DC9FB2001096A3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */; };
@@ -189,27 +189,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A467EEF1546D1F300F8902B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = ObjectiveGit;
-		};
-		4A4EF0AE142CBAD5001B8CDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
-			remoteInfo = ObjectiveGit;
-		};
-		4A4EF0B2142CBAD5001B8CDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 04DB4645133AB57600D9C624;
-			remoteInfo = "ObjectiveGit-iOS";
-		};
 		4A68AD6614A0050F006DE321 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A68AD5814A0050E006DE321 /* Sparkle.xcodeproj */;
@@ -252,13 +231,6 @@
 			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = Sparkle;
 		};
-		4A68AD7214A00534006DE321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = ObjectiveGit;
-		};
 		4A774CBC142F464D00E158CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -286,13 +258,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = AAE785771419184700A6955E;
 			remoteInfo = MGScopeBar.framework;
-		};
-		4ADAA9C11602ADB8007A0E6F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 88F05A6B16011E5400B7AD1D;
-			remoteInfo = ObjectiveGitTests;
 		};
 		4D3F253018C37D9A000922D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -329,13 +294,6 @@
 			remoteGlobalIDString = 5AE13FB31E0D9E07000D2C2C;
 			remoteInfo = generate_appcast;
 		};
-		4D901E031C237186004C3A6F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F879D8361B4B7F7C002D5C07;
-			remoteInfo = "ObjectiveGit-iOSTests";
-		};
 		551BF174112F3F3500265053 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -353,8 +311,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				4A8F6B4C14A9B6C90002F4D7 /* MGScopeBar.framework in CopyFiles */,
+				D178B3E12334241A00E485D6 /* ObjectiveGit.framework in CopyFiles */,
 				4AAAFDDA14A010DD008FC9B5 /* Sparkle.framework in CopyFiles */,
-				4A774CC9142F482900E158CC /* ObjectiveGit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +332,6 @@
 		4A2125A317C0C78A00B5B582 /* NSColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RGB.m"; sourceTree = "<group>"; };
 		4A40159614067B6300DB9C07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4A40159814067B7A00DB9C07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveGitFramework.xcodeproj; path = "objective-git/ObjectiveGitFramework.xcodeproj"; sourceTree = "<group>"; };
 		4A5D757D14A9A90500DF6C68 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		4A5D759B14A9A90500DF6C68 /* mainSplitterBar.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = mainSplitterBar.tiff; sourceTree = "<group>"; };
 		4A5D759C14A9A90500DF6C68 /* mainSplitterDimple.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = mainSplitterDimple.tiff; sourceTree = "<group>"; };
@@ -623,6 +580,7 @@
 		BF42F1321E025403004769FF /* GitXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXTextView.m; sourceTree = "<group>"; };
 		BF42F1431E025411004769FF /* GitXTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitXTextView.h; sourceTree = "<group>"; };
 		BFFCB5461E3EFA9F00E0B254 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D178B3DF2334241A00E485D6 /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/Mac/ObjectiveGit.framework; sourceTree = "<group>"; };
 		D87127001229A21C00012334 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D89E9AB21218A9DA0097A90B /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
@@ -647,8 +605,8 @@
 			files = (
 				4A8F6B4B14A9B6C20002F4D7 /* MGScopeBar.framework in Frameworks */,
 				4A68AD7414A00541006DE321 /* Sparkle.framework in Frameworks */,
-				4A4EF0BB142CBBC2001B8CDF /* ObjectiveGit.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D178B3E02334241A00E485D6 /* ObjectiveGit.framework in Frameworks */,
 				F56526240E03D85900F03B52 /* WebKit.framework in Frameworks */,
 				911112370E5A097800BF76B4 /* Security.framework in Frameworks */,
 				F5E4DBFB0EAB58D90013FAFC /* SystemConfiguration.framework in Frameworks */,
@@ -663,7 +621,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A467EEE1546D1CD00F8902B /* ObjectiveGit.framework in Frameworks */,
+				D178B3E2233424A500E485D6 /* ObjectiveGit.framework in Frameworks */,
 				4A40159914067B7A00DB9C07 /* AppKit.framework in Frameworks */,
 				4A40159714067B6300DB9C07 /* CoreFoundation.framework in Frameworks */,
 				D89E9B141218BA260097A90B /* ScriptingBridge.framework in Frameworks */,
@@ -686,6 +644,7 @@
 		29B97314FDCFA39411CA2CEA /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				D178B3DF2334241A00E485D6 /* ObjectiveGit.framework */,
 				4A90A72B14A9C12F00D0DA02 /* README.markdown */,
 				4A5D762114A9A9CC00DF6C68 /* Classes */,
 				4A5D773E14A9AB3A00DF6C68 /* External Sources */,
@@ -738,17 +697,6 @@
 			);
 			name = gitx_askpasswd;
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		4A4EF0A0142CBAD5001B8CDF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4A4EF0AF142CBAD5001B8CDF /* ObjectiveGit.framework */,
-				4ADAA9C21602ADB8007A0E6F /* ObjectiveGit-MacTests.xctest */,
-				4A4EF0B3142CBAD5001B8CDF /* ObjectiveGit.framework */,
-				4D901E041C237186004C3A6F /* ObjectiveGit-iOSTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4A5D757C14A9A90500DF6C68 /* Resources */ = {
@@ -1075,7 +1023,6 @@
 				4DF173E521A1A67A003CD3CE /* MAKVONotificationCenter.m */,
 				4DE23D061CF31258004C3A6F /* libgit2 */,
 				4A8F6B3B14A9B6100002F4D7 /* MGScopeBar.xcodeproj */,
-				4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */,
 				4A68AD5814A0050E006DE321 /* Sparkle.xcodeproj */,
 			);
 			name = "External Sources";
@@ -1150,7 +1097,6 @@
 				4D3F253118C37D9A000922D9 /* PBXTargetDependency */,
 				4A8F6B4A14A9B6B80002F4D7 /* PBXTargetDependency */,
 				4A68AD7114A00534006DE321 /* PBXTargetDependency */,
-				4A68AD7314A00534006DE321 /* PBXTargetDependency */,
 				4A774CBD142F464D00E158CC /* PBXTargetDependency */,
 				551BF175112F3F3500265053 /* PBXTargetDependency */,
 			);
@@ -1171,7 +1117,6 @@
 			);
 			dependencies = (
 				4D3F253318C37D9F000922D9 /* PBXTargetDependency */,
-				4A467EF01546D1F300F8902B /* PBXTargetDependency */,
 			);
 			name = "cli tool";
 			productName = "cli tool";
@@ -1185,6 +1130,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						DevelopmentTeam = 42UWJ9W9ZX;
+					};
+				};
 			};
 			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "GitX" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1204,10 +1154,6 @@
 					ProjectRef = 4A8F6B3B14A9B6100002F4D7 /* MGScopeBar.xcodeproj */;
 				},
 				{
-					ProductGroup = 4A4EF0A0142CBAD5001B8CDF /* Products */;
-					ProjectRef = 4A4EF09F142CBAD5001B8CDF /* ObjectiveGitFramework.xcodeproj */;
-				},
-				{
 					ProductGroup = 4A68AD5914A0050E006DE321 /* Products */;
 					ProjectRef = 4A68AD5814A0050E006DE321 /* Sparkle.xcodeproj */;
 				},
@@ -1223,20 +1169,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4A4EF0AF142CBAD5001B8CDF /* ObjectiveGit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectiveGit.framework;
-			remoteRef = 4A4EF0AE142CBAD5001B8CDF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4A4EF0B3142CBAD5001B8CDF /* ObjectiveGit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectiveGit.framework;
-			remoteRef = 4A4EF0B2142CBAD5001B8CDF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		4A68AD6714A0050F006DE321 /* Sparkle.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -1286,13 +1218,6 @@
 			remoteRef = 4A8F6B4614A9B6110002F4D7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4ADAA9C21602ADB8007A0E6F /* ObjectiveGit-MacTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ObjectiveGit-MacTests.xctest";
-			remoteRef = 4ADAA9C11602ADB8007A0E6F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		4D761CE61E552B1F004C3A6F /* UI Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
@@ -1312,13 +1237,6 @@
 			fileType = "compiled.mach-o.executable";
 			path = generate_appcast;
 			remoteRef = 4D761CE91E552B1F004C3A6F /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		4D901E041C237186004C3A6F /* ObjectiveGit-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ObjectiveGit-iOSTests.xctest";
-			remoteRef = 4D901E031C237186004C3A6F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1538,20 +1456,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4A467EF01546D1F300F8902B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ObjectiveGit;
-			targetProxy = 4A467EEF1546D1F300F8902B /* PBXContainerItemProxy */;
-		};
 		4A68AD7114A00534006DE321 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Sparkle;
 			targetProxy = 4A68AD7014A00534006DE321 /* PBXContainerItemProxy */;
-		};
-		4A68AD7314A00534006DE321 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ObjectiveGit;
-			targetProxy = 4A68AD7214A00534006DE321 /* PBXContainerItemProxy */;
 		};
 		4A774CBD142F464D00E158CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1661,13 +1569,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-gitx";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)\"";
+				DEVELOPMENT_TEAM = 42UWJ9W9ZX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Resources/GitX_Prefix.pch;
 				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = net.phere.GitX;
 				PRODUCT_NAME = GitX;
@@ -1681,13 +1594,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-gitx";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Resources/GitX_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = net.phere.GitX;
 				PRODUCT_NAME = GitX;
@@ -1841,6 +1758,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Resources/GitX_Prefix.pch;
 				INFOPLIST_FILE = "Resources/Info-gitx.plist";
@@ -1855,6 +1776,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Resources/GitX_Prefix.pch;
 				INFOPLIST_FILE = "Resources/Info-gitx.plist";
